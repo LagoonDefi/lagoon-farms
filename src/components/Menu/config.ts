@@ -46,16 +46,24 @@ const config: MenuEntry[] = [
   //   href: '/nft',
   // },
   {
-    label: 'Info',
+    label: 'Charts',
     icon: 'InfoIcon',
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/contact-address-replace/',
+        href: 'https://pancakeswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
       },
       {
         label: 'PooCoin',
-        href: 'https://poocoin.app/contact-address-replace/',
+        href: 'https://poocoin.app/tokens/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+      },
+      {
+        label: 'DexGuru',
+        href: 'https://dex.guru/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82-bsc',
+      },
+      {
+        label: 'Bogged',
+        href: 'https://charts.bogged.finance/?token=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
       },
     ],
   },
