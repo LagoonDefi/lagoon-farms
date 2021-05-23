@@ -12,7 +12,6 @@ export const stake = async (masterChefContract, pid, amount, account) => {
     .deposit(
       pid,
       new BigNumber(amount).times(new BigNumber(10).pow(18)).toString(),
-      '0x5DECAb14eeCb5DD0D20b6342C5D729FbA3c456c4',
     )
     .send({ from: account })
     .on('transactionHash', (tx) => {
