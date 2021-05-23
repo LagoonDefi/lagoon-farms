@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'LAGOON-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x2Bc123deb65c34a1cF76F04132956fF5228D3399',
+      56: '0x7905D04593Cc59832a22a0FAE40415388E66eBC0',
     },
     tokenSymbol: 'LAGOON',
     tokenAddresses: {
       97: '',
-      56: '0x7AB0cAC559BCa81A5F9569A741Fb908Dc16424FA',
+      56: '0x29170BE65ecc071dDdf0477a6E04Db4a89DbEE74',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'LAGOON-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x9F43335048EFED6320430D43b9c0Ff92A297ccD8',
+      56: '0x92E3d08B86985063185981E35dd56488a9a22b30',
     },
     tokenSymbol: 'LAGOON',
     tokenAddresses: {
       97: '',
-      56: '0x7AB0cAC559BCa81A5F9569A741Fb908Dc16424FA',
+      56: '0x29170BE65ecc071dDdf0477a6E04Db4a89DbEE74',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -61,7 +61,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'CAKE',
     tokenAddresses: {
       97: '',
-      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -125,13 +125,13 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'CAKE',
     tokenAddresses: {
       97: '',
-      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 7,
+    pid: 8,
     risk: 1,
     lpSymbol: 'DOT-BUSD LP',
     lpAddresses: {
@@ -153,7 +153,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'LAGOON',
     lpAddresses: {
       97: '',
-      56: '0x2Bc123deb65c34a1cF76F04132956fF5228D3399', // EGG-BUSD LP
+      56: '0x7905D04593Cc59832a22a0FAE40415388E66eBC0', // EGG-BUSD LP
     },
     tokenSymbol: 'LAGOON',
     tokenAddresses: {
