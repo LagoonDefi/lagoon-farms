@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'LAGOON-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x7905D04593Cc59832a22a0FAE40415388E66eBC0',
+      56: '0x12AC2bd088AE80eFf62122535C2338DB22a1f21D',
     },
     tokenSymbol: 'LAGOON',
     tokenAddresses: {
       97: '',
-      56: '0x29170BE65ecc071dDdf0477a6E04Db4a89DbEE74',
+      56: '0x271500327D73D998d5A98fC9ca44a33ADF5c4e2A',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'LAGOON-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x92E3d08B86985063185981E35dd56488a9a22b30',
+      56: '0x454f49aafF59e6f04a40c10A799E55aeFA5121Bf',
     },
     tokenSymbol: 'LAGOON',
     tokenAddresses: {
       97: '',
-      56: '0x29170BE65ecc071dDdf0477a6E04Db4a89DbEE74',
+      56: '0x271500327D73D998d5A98fC9ca44a33ADF5c4e2A',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -115,7 +115,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 8,
+    pid: 7,
     risk: 1,
     lpSymbol: 'DOT-BUSD LP',
     lpAddresses: {
@@ -131,24 +131,24 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 9,
+    pid: 8,
     risk: 5,
     isTokenOnly: true,
     lpSymbol: 'LAGOON',
     lpAddresses: {
       97: '',
-      56: '0x7905D04593Cc59832a22a0FAE40415388E66eBC0', // EGG-BUSD LP
+      56: '0x12AC2bd088AE80eFf62122535C2338DB22a1f21D', // LAGOON-BUSD LP
     },
     tokenSymbol: 'LAGOON',
     tokenAddresses: {
       97: '',
-      56: '0x29170BE65ecc071dDdf0477a6E04Db4a89DbEE74',
+      56: '0x271500327D73D998d5A98fC9ca44a33ADF5c4e2A',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 10,
+    pid: 9,
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'WBNB',
@@ -160,6 +160,23 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       97: '',
       56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 10,
+    risk: 4,
+    isTokenOnly: true,
+    lpSymbol: 'BUSD',
+    lpAddresses: {
+      97: '',
+      56: '0x2Bc123deb65c34a1cF76F04132956fF5228D3399', // LAGOON-BUSD LP
+    },
+    tokenSymbol: 'BUSD',
+    tokenAddresses: {
+      97: '',
+      56: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -228,23 +245,6 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       97: '',
       56: '0x7083609fce4d1d8dc0c979aab8c869ea2c873402',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    pid: 15,
-    risk: 4,
-    isTokenOnly: true,
-    lpSymbol: 'BUSD',
-    lpAddresses: {
-      97: '',
-      56: '0x2Bc123deb65c34a1cF76F04132956fF5228D3399', // LAGOON-BUSD LP
-    },
-    tokenSymbol: 'BUSD',
-    tokenAddresses: {
-      97: '',
-      56: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
