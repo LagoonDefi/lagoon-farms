@@ -158,7 +158,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'LAGOON',
     tokenAddresses: {
       97: '',
-      56: '0x7AB0cAC559BCa81A5F9569A741Fb908Dc16424FA',
+      56: '0x29170BE65ecc071dDdf0477a6E04Db4a89DbEE74',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
