@@ -76,13 +76,13 @@ const config: MenuEntry[] = [
         href: 'https://github.com/lagoondefi/',
       },
       {
+        label: 'Docs',
+        href: 'https://lagoondefi.gitbook.io/lagon-defi/',
+      },
+      {
         label: 'Dlive',
         href: 'https://dlive.tv/lagoondefi/',
       },
-      // {
-      //   label: 'Docs',
-      //   href: 'https://lagoondefi.gitbook.io/lagon-defi/',
-      // },
       // {
       //   label: 'Blog',
       //   href: 'https://lagoondefi.medium.com/',
