@@ -77,7 +77,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://lagoondefi.gitbook.io/lagon-defi/',
+        href: 'https://lagoondefi.gitbook.io/lagoon-defi/',
       },
       {
         label: 'Dlive',
