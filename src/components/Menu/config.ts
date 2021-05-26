@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0a42f69FAa5A8276E12Ab716ea19bf9cbB52a2B8',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x0a42f69FAa5A8276E12Ab716ea19bf9cbB52a2B8',
       },
     ],
   },
@@ -51,19 +51,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+        href: 'https://pancakeswap.info/token/0x0a42f69FAa5A8276E12Ab716ea19bf9cbB52a2B8',
       },
       {
         label: 'PooCoin',
-        href: 'https://poocoin.app/tokens/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+        href: 'https://poocoin.app/tokens/0x0a42f69FAa5A8276E12Ab716ea19bf9cbB52a2B8',
       },
       {
         label: 'DexGuru',
-        href: 'https://dex.guru/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82-bsc',
+        href: 'https://dex.guru/token/0x0a42f69FAa5A8276E12Ab716ea19bf9cbB52a2B8-bsc',
       },
       {
         label: 'Bogged',
-        href: 'https://charts.bogged.finance/?token=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+        href: 'https://charts.bogged.finance/?token=0x0a42f69FAa5A8276E12Ab716ea19bf9cbB52a2B8',
       },
     ],
   },
