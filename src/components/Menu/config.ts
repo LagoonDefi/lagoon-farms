@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.lagoondefi.com/',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.lagoondefi.com/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
       },
     ],
   },

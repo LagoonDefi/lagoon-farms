@@ -25,7 +25,7 @@ const Menu = (props) => {
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd.toNumber()}
       links={config}
-      priceLink="https://exchange.lagoondefi.com/"
+      priceLink="https://app.lagoondefi.com/"
       {...props}
     />
   )
