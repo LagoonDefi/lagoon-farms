@@ -68,6 +68,20 @@ const config: MenuEntry[] = [
     ],
   },
   {
+    label: 'Listings',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: 'DappRadar',
+        href: 'https://dappradar.com/binance-smart-chain/defi/lagoon-defi',
+      },
+      {
+        label: 'CoinSniper (Go Upvote!)',
+        href: 'https://coinsniper.net/coin/828',
+      },
+    ],
+  },
+  {
     label: 'More',
     icon: 'MoreIcon',
     items: [
@@ -88,6 +102,11 @@ const config: MenuEntry[] = [
       //   href: 'https://lagoondefi.medium.com/',
       // },
     ],
+  },
+  {
+    label: 'Audit (Coming Soon)',
+    icon: 'AuditIcon',
+    href: '#',
   },
   // {
   //   label: 'Partnerships/IFO',
